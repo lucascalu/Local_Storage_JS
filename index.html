@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>JOGO</h1>
+
+
+<p>Saved name is:</p>
+<p id="demo"></p>
+
+<input type="text" id="get1">
+
+
+<button onclick="teste()">cadastro</button>
+<button onclick="teste2()">Ler</button>
+
+<script>
+
+
+function teste(){
+// Set Item
+var input = document.getElementById('get1').value;
+
+window.alert(input);
+
+
+localStorage.setItem("nome"[0], input);
+
+
+}
+
+
+function teste2(){
+// Retrieve
+document.getElementById("demo").innerHTML = localStorage.getItem("nome"[0]);
+
+
+
+}
+
+
+</script>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+  
+
+       
+       
+
+
+
+
+</body>
+</html>
